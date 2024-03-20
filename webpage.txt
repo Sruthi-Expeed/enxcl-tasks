@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My webpage</title>
+</head>
+<body>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#form">Form</a>
+        <a href="#fruits">Fruits</a>
+        <a href="#image">Image</a>
+        <a href="#video">Video</a>
+        <a href="#table">Table</a>
+        <a href="#languages">Languages</a>
+      </nav>
+      <header>
+        <h1>Welcome to my webpage</h1>
+      </header>
+
+     <article>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <a href="https://www.google.com/">VisitWebsite</a>
+          </section>
+
+          <section id="form">
+            <h2>Form</h2>
+            <form>
+              <label>Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label>Email:</label><br>
+              <input type="email" id="email" name="email"><br><br>
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+        
+          <section id="fruits">
+            <h2>My Favorite Fruits</h2>
+            <ol>
+              <li>Apple</li>
+              <li>Banana</li>
+              <li>Orange</li>
+              <li>Strawberry</li>
+              <li>Mango</li>
+            </ol>
+          </section>
+
+          <section id="image">
+            <h2>Image</h2>
+            <img src="th.jpeg">
+          </section>
+      
+         
+          <section id="video">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PDx8kcu98?si=s2A-E9Ftnii_b33x"  allowfullscreen></iframe>
+            </video>
+          </section>
+
+          <section id="table">
+            <h2>Table</h2>
+            <table border="1">
+                <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sruthi</td>
+                <td>23</td>
+                <td>India</td>
+              </tr>
+              <tr>
+                <td>Mike</td>
+                <td>26</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Jain</td>
+                <td>28</td>
+                <td>Egypt</td>
+              </tr>
+            </tbody>
+            </table>
+          </section>
+
+          <section id="languages">
+            <h2>Programming Languages</h2>
+            <select>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javascript">JavaScript</option>
+              <option value="python">Python</option>
+              <option value="java">Java</option>
+            </select>
+          </section>
+
+     </article>
+     <footer>
+        <p>&copy; My page - 2024</p>
+      </footer>
+       
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label>Name : </label>
+        <input type="text" id="name" name="name"><br><br>
+        <label>Email : </label>
+        <input type="email" id="email" name="email"><br><br>
+        <label>Age : </label>
+        <input type="number" id="age" name="age"><br><br>
+
+        <label>Gender : </label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Qualification : </label><br>
+        <input type="radio" id="mca" name="mca">
+        <label>Mca</label><br>
+        <input type="radio" id="mba" name="mca">
+        <label>Mba</label><br>
+        <input type="radio" id="btech" name="mca">
+        <label>Btech</label><br><br>
+
+        <label>District : </label><br>
+        <input type="checkbox" id="alappuzha" name="alappuzha">
+        <label>Alappuzha</label><br>
+        <input type="checkbox" id="trivandrum" name="trivandrum">
+        <label>Trivandrum</label><br>
+        <input type="checkbox" id="ernakulam" name="ernakulam">
+        <label>Ernakulam</label><br><br>
+
+        <p>Please fill out the following form to apply for our program. All fields are required unless otherwise stated.</p>
+
+        <button type="submit">Submit</button>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

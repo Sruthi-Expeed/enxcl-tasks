@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+        <img src="enxcl-new-logo.png" alt="Logo" class="logo">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+    </nav>
+</div>
+    <div class="box">
+        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+    </div>
+    <div class="section-title">About</div>
+    <div class="box">
+        <p class="text-decoration-example">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+        <p class="text-transform-example">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <p class="line-height-example">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+    </div>
+    <div class="section-title">Updates</div>
+    <div class="box">
+        No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. 
+        
+    </div>
+    <div class="section-title">Informations</div>
+    <div class="box position-relative">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</div>
+    <div class="box position-absolute">content</div>
+    <div class="box position-fixed">Good company to work</div>
+    <div class="box" style="height: fit-content; width: fit-content;"><img src="th.jpeg"></div>
+    <div class="box position-sticky">News</div>
+
+    <div class="section-title">Core Strengths</div>
+    <div class="clearfix">
+        <div class="column" style="background-color:#aaa;">
+            Financial Strengths
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            Cost Advantages
+        </div>
+
+    </div>
+    <div class="section-title">Advisory Services</div>
+    <div class="box flex-container">
+        Led by a team with rich industry experience, enxcl’s Advisory Services delivers significant value to clients’ businesses by optimizing delivery, management, service, and process excellence.
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">Employee 1</div>
+        <div class="grid-item">Employee 2</div>
+        <div class="grid-item">Employee 3</div>
+        <div class="grid-item">Employee 4</div>
+        <div class="grid-item">Employee 5</div>
+        <div class="grid-item">Employee 6</div>
+    </div>
+
+    <div class="section-title">Skill Enhancement</div>
+    <div class="box column" style="background-color:#aaa;">
+        We start with assessing the current state and with clarity of the future state as per the roles held. Whether the roles handled may be in delivery leadership, customer handling, risk management, product management, service management, or implementation management, we are equipped to assess them and identify the gaps.
+    </div>
+
+    <a href="#" class="btn">Go to Home</a>
+
+    <img src="partners.png" alt="Image" class="image" style="width: fit-content; height: fit-content;">
+
+</body>
+</html>
